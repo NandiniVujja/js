@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JsTask</title>
+	<link rel="stylesheet" type="text/css" href="src/style.css">
+	<script src="src/jscript.js"></script>
+</head>
+<body>
+<div align="center">
+<div id="imgs">
+	<br><h1 id="heading">Hover on images to see the background effect<br> and Me!!</h1><br><br><br><br>
+	<img id="img1" src="src/1.jpeg" onmouseover="img1change()" onmouseout="imgout()">&ensp;&ensp;
+	<img id="img2" src="src/2.jpeg" onmouseover="img2change()" onmouseout="imgout()">&ensp;&ensp;
+	<img id="img3" src="src/3.jpeg" onmouseover="img3change()" onmouseout="imgout()">
+</div><br>
+
+<div id="dob">
+		<br><h1>Lets Play with your Date Of Birth</h1>
+		<br><label for="dobirth">Enter Your Birthday</label>
+		<input type="text" id="dobirth" placeholder="March 25,2010">
+		<button onclick="age()">Know your Age</button>
+		<p id="birth"></p>
+</div><br>
+
+<div id="random">
+	<br><h1>Lets Play with Random Colors</h1>
+	<br><br><br><button id="btn" onclick="myFunction()">Generate Theme</button>
+</div>
+</div>
+</body>
+</html>
